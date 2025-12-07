@@ -112,28 +112,7 @@ const products = [
 
 ];
 
-const horoscopeServices = [
-  {
-    title: "Detailed Birth Chart",
-    description: "Complete Kundali preparation with planetary positions and predictions.",
-    price: "₹1,100",
-  },
-  {
-    title: "Yearly Predictions",
-    description: "Month-by-month predictions for the coming year.",
-    price: "₹2,100",
-  },
-  {
-    title: "Compatibility Report",
-    description: "Marriage compatibility analysis with remedies.",
-    price: "₹1,500",
-  },
-  {
-    title: "Career Report",
-    description: "Detailed career guidance based on your chart.",
-    price: "₹1,500",
-  },
-];
+
 
 const Remedies = () => {
   return (
@@ -193,36 +172,7 @@ const Remedies = () => {
         </div>
       </section>
 
-      {/* Horoscope Reports */}
-      <section className="section-padding bg-muted/50">
-        <div className="container-max">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="text-primary font-medium text-sm uppercase tracking-wider">
-              Written Reports
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-display font-bold mt-3 mb-6">
-              Horoscope Reports
-            </h2>
-            <p className="text-muted-foreground">
-              Detailed written reports prepared by Acharaya Ravi with personalized 
-              predictions and remedies.
-            </p>
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {horoscopeServices.map((service) => (
-              <div key={service.title} className="glass-card p-6 hover-lift text-center">
-                <h3 className="font-display text-lg font-semibold mb-2">{service.title}</h3>
-                <p className="text-muted-foreground text-sm mb-4">{service.description}</p>
-                <p className="font-display text-2xl font-bold text-primary mb-4">{service.price}</p>
-                <Button variant="outline" size="sm" className="w-full" asChild>
-                  <Link to="/contact">Order Now</Link>
-                </Button>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       <ConsultationForm />
     </Layout>

@@ -49,8 +49,8 @@ export const ConsultationForm = () => {
   };
 
   return (
-    <section className="section-padding">
-      <div className="container-max">
+    <section className="section-padding bg-muted/50">
+      <div className="container-max ">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Content */}
           <div className="space-y-6">
