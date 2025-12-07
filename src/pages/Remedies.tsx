@@ -2,40 +2,114 @@ import { Layout } from "@/components/layout/Layout";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { ConsultationForm } from "@/components/sections/ConsultationForm";
 import { Button } from "@/components/ui/button";
-import { Gem, Scroll, Leaf, Bell, Flame, ShoppingBag } from "lucide-react";
+import { Zap,Aperture, Square, Shield,Badge,Hammer, ShoppingBag } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const products = [
   {
-    icon: Gem,
-    title: "Gemstones",
-    description: "Authentic, energized gemstones based on your horoscope for planetary strengthening.",
-    image: "https://images.unsplash.com/photo-1551751299-1b51cab2694c?w=400&h=300&fit=crop",
+  icon: Aperture,
+  title: "Shaktichakra",
+  description: "Provides protection, balances energy and brings peace to the home",
+  image: "https://pinnaclevastu.in/cdn/shop/files/ProductImages_9.png?v=1748518635",
+},
+{
+  icon: Square,
+  title: "Aluminium Strip",
+  description: "Used to correct Vastu doshas and improve energy flow in walls.",
+  image: "https://cpimg.tistatic.com/05634809/b/4/Aluminium-Strips.jpg",
+},
+{
+  icon: Shield,
+  title: "Steel Strip",
+  description: "Removes strong negative energies and adds stability to the space.",
+  image: "https://5.imimg.com/data5/RO/FM/MY-38783368/metal-strip.jpg",
+},
+{
+  icon: Zap,
+  title: "Copper Strip",
+  description: "Attracts prosperity, health and positive vibrations.",
+  image: "https://m.media-amazon.com/images/I/51rGyXGpr1L._AC_UF1000,1000_QL80_.jpg",
+},
+{
+  icon: Badge,
+  title: "Brass Strip",
+  description: "Brings harmony, balance and improves emotional energy.",
+  image: "https://m.media-amazon.com/images/I/61ZMqR47r8L.jpg",
+},
+{
+  icon: Hammer,
+  title: "Iron Strip",
+  description: "Grounds energy, removes obstacles and strengthens Vastu stability.",
+  image: "https://images.jdmagicbox.com/quickquotes/images_main/iron-strip-372609457-fi6wh.jpg",
+},
+ {
+    icon: Hammer,
+    title: "Blue Tape (Iron)",
+    description: "Used for grounding and stabilizing weak Vastu directions.",
+    image: "https://www.parthpooja.com/cdn/shop/files/41XUQIHzUnL._SL1200_700x700.jpg?v=1715250732",
+  },
+   {
+    icon: Shield,
+    title: "Green Tape (Steel)",
+    description: "Enhances growth, career and smooth energy movement.",
+    image: "https://m.media-amazon.com/images/I/71ta9LBavML.jpg",
   },
   {
-    icon: Scroll,
-    title: "Yantras",
-    description: "Sacred geometric diagrams energized with mantras for specific life improvements.",
-    image: "https://images.unsplash.com/photo-1609619385002-f40f4b4af7eb?w=400&h=300&fit=crop",
+    icon: Zap,
+    title: "Red Tape (Copper)",
+    description: "Activates prosperity, health and fire-related energies.",
+    image: "https://www.parthpooja.com/cdn/shop/files/3-1000x1000_2fa4eb18-f2f2-410d-8e8f-931c0fe79d5b_1024x1024.jpg?v=1715250885",
   },
   {
-    icon: Leaf,
-    title: "Vastu Items",
-    description: "Pyramids, crystals, and energy tools for Vastu corrections without structural changes.",
-    image: "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=400&h=300&fit=crop",
+    icon: Badge,
+    title: "Yellow Tape (Brass)",
+    description: "Balances relationships, harmony and emotional peace",
+    image: "https://www.parthpooja.com/cdn/shop/files/51aH-Y154PL._SX522_512x512.jpg?v=1715250304",
   },
   {
-    icon: Bell,
-    title: "Puja Items",
-    description: "Authentic puja materials, incense, and spiritual accessories for daily worship.",
-    image: "https://images.unsplash.com/photo-1606819813653-3ce6b3e8e3f0?w=400&h=300&fit=crop",
+    icon: Hammer,
+    title: "White Tape (Iron)",
+    description: "Neutralizes negativity and strengthens the home’s foundation.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDC9ozpSWc5pBqgqSj5lamb5qKeJ9Z8yfIKA&s",
+  },
+   {
+    icon: Hammer,
+    title: "Iron Stud",
+    description: "Provides strong grounding and fixes major Vastu defects.",
+    image: "https://www.jiomart.com/images/product/original/rvon02dk6r/treemaison-vastu-round-iron-stud-for-vastu-dosh-remedy-for-correction-balancing-space-element-1-5-inch-pack-of-06-product-images-orvon02dk6r-p612177876-0-202508141652.jpg?im=Resize=(420,420)",
   },
   {
-    icon: Flame,
-    title: "Rudraksha",
-    description: "Genuine Rudraksha beads of various mukhis for spiritual and health benefits.",
-    image: "https://images.unsplash.com/photo-1629019738284-ce34c8d9b5a0?w=400&h=300&fit=crop",
+    icon: Square,
+    title: "Aluminium Stud",
+    description: "Balances corner energies and reduces Vastu imbalance.",
+    image: "https://images-eu.ssl-images-amazon.com/images/I/41Ney1LfWHL._AC_UL210_SR210,210_.jpg",
   },
+  {
+    icon: Badge,
+    title: "Brass Stud",
+    description: "Improves harmony and corrects relationship-related Vastu issues.",
+    image: "https://m.media-amazon.com/images/I/41dXvoS3HFL.jpg",
+  },
+  {
+    icon: Zap,
+    title: "Copper Stud",
+    description: "Attracts positivity, prosperity and beneficial energies.",
+    image: "https://m.media-amazon.com/images/I/71s4NjmUzGL.jpg",
+  },
+  {
+    icon: Shield,
+    title: "Steel Stud",
+    description: "Adds strength and protection in Vastu corrections.",
+    image: "https://m.media-amazon.com/images/I/61CFGsVzEFL._SX679_.jpg",
+  },
+   {
+    icon: Aperture,
+    title: "Gomti Chakra",
+    description: "Brings good luck, prosperity and removes negative energy.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoh_yQ6zW0gO4OAH4C-sd4Q5O8ciNobAXfkA&s",
+  },
+
+
 ];
 
 const horoscopeServices = [
