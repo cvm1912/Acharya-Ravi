@@ -88,8 +88,8 @@ export const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5" />
                 <p className="text-sm text-background/80">
-                  123 Vastu Bhavan, Spiritual Lane,<br />
-                  Hyderabad, Telangana 500001
+                  Patna, Bihar, India <br />
+                 
                 </p>
               </li>
             </ul>
@@ -102,7 +102,7 @@ export const Footer = () => {
           </p>
           <div className="flex items-center gap-4">
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919263218599"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-background/80 hover:text-primary transition-colors"

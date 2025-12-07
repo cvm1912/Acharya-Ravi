@@ -52,13 +52,13 @@ export const Navbar = () => {
           {/* Desktop CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
             <Button variant="call" size="sm" asChild>
-              <a href="tel:+919876543210">
+              <a href="tel:+919263218599">
                 <Phone className="w-4 h-4" />
                 Call Now
               </a>
             </Button>
             <Button variant="whatsapp" size="sm" asChild>
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/919263218599" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-4 h-4" />
                 WhatsApp
               </a>
@@ -100,13 +100,13 @@ export const Navbar = () => {
           ))}
           <div className="flex gap-3 pt-4">
             <Button variant="call" className="flex-1" asChild>
-              <a href="tel:+919876543210">
+              <a href="tel:+919263218599">
                 <Phone className="w-4 h-4" />
                 Call Now
               </a>
             </Button>
             <Button variant="whatsapp" className="flex-1" asChild>
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/919263218599" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-4 h-4" />
                 WhatsApp
               </a>
