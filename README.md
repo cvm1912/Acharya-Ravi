@@ -1,53 +1,116 @@
-# Welcome to your Lovable project
+# Acharya-Ravi
 
-## Project info
+A modern web application for Vastu Shastra consultation, design services, horoscope readings, and remedies guidance.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## About
 
-## How can I edit this code?
+Acharya-Ravi is a comprehensive platform dedicated to providing professional Vastu Shastra services. The website offers consultancy, architectural design solutions, personalized horoscope analysis, and Vastu remedies to help clients create harmonious and auspicious living and working spaces.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Consultancy Services**: Professional guidance on Vastu principles and their application
+- **Design Services**: Expert architectural and interior design solutions based on Vastu Shastra
+- **Horoscope Services**: Personalized astrological readings and predictions
+- **Remedies**: Practical Vastu remedies to improve wellness and prosperity
+- **Contact & Booking**: Easy-to-use consultation booking system
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React 18+ with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Form Management**: React Hook Form
+- **Routing**: React Router
+- **State Management**: TanStack React Query
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v16 or higher)
+- npm or bun package manager
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+```bash
+git clone https://github.com/cvm1912/Acharya-Ravi.git
+cd Acharya-Ravi
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start the development server with hot reload
+- `npm run build` - Build the project for production
+- `npm run build:dev` - Build the project in development mode
+- `npm run lint` - Run ESLint to check code quality
+- `npm run preview` - Preview the production build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── layout/        # Layout components (Navbar, Footer, etc.)
+│   ├── sections/      # Page sections (Hero, About, Benefits, etc.)
+│   ├── ui/            # Reusable UI components
+│   └── NavLink.tsx    # Navigation link component
+├── pages/             # Page components
+├── hooks/             # Custom React hooks
+├── lib/               # Utility functions
+└── App.tsx            # Main app component
+```
+
+## Pages
+
+- **Home (/)** - Landing page with hero section and service overview
+- **Consultancy (/consultancy)** - Consultancy services information
+- **Design (/design)** - Design services portfolio
+- **Horoscope (/horoscope)** - Horoscope services
+- **Remedies (/remedies)** - Vastu remedies and solutions
+- **Contact (/contact)** - Contact form and information
+
+## Development
+
+### Code Quality
+
+- ESLint is configured for code quality checks
+- Run `npm run lint` to check for linting issues
+
+### Building
+
+- Development build: `npm run build:dev`
+- Production build: `npm run build`
+
+## Browser Support
+
+The application supports all modern browsers including:
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is private and maintained by the Acharya-Ravi team.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
