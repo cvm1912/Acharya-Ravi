@@ -29,7 +29,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Address",
-    details: ["123 Vastu Bhavan, Spiritual Lane", "Hyderabad, Telangana 500001"],
+    details: ["Patna, Bihar, India"],
     action: "https://maps.google.com",
     actionLabel: "Get Directions",
   },
