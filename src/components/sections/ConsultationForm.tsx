@@ -49,8 +49,14 @@ export const ConsultationForm = () => {
   };
 
   return (
-    <section className="section-padding bg-muted/50">
-      <div className="container-max ">
+    <section className="section-padding bg-muted/50 relative">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center  bg-no-repeat opacity-0.5 md:opacity-100"
+        style={{ backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwmRB6JzE9-Al1lm8d3YInqLsn-Y3G_EHr6w&s')" }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background/60" />
+      <div className="container-max relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Content */}
           <div className="space-y-6">
