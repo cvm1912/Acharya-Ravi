@@ -1,24 +1,33 @@
-import { Compass, Sun, Wind, Droplets } from "lucide-react";
+import { Compass, Sun, Wind, Droplets, Flame, Earth } from "lucide-react";
 
 const elements = [
   {
-    icon: Sun,
-    title: "Fire (Agni)",
-    description: "Represents energy, enthusiasm, and passion in your space",
-  },
-  {
     icon: Droplets,
-    title: "Water (Jal)",
-    description: "Symbolizes fluidity, purity, and emotional well-being",
+    title: "Water ( जल )",
+    description: "Represents Flow, clarity, emotions",
   },
-  {
+
+   {
     icon: Wind,
-    title: "Air (Vayu)",
+    title: "Air ( वायु )",
     description: "Brings movement, freshness, and positive energy flow",
   },
+
+  {
+    icon: Flame,
+    title: "Fire ( अग्नि )",
+    description: "Represents Energy, passion, transformation",
+  },
+   {
+    icon: Earth,
+    title: "Earth ( पृथ्वी )",
+    description: "Represents Stability, balance, growth, and grounding",
+  },
+  
+ 
   {
     icon: Compass,
-    title: "Space (Akash)",
+    title: "Space ( आकाश )",
     description: "Creates expansion, clarity, and spiritual growth",
   },
 ];
@@ -38,13 +47,11 @@ export const WhatIsVastu = () => {
             </h2>
             <p className="text-muted-foreground leading-relaxed">
               Vastu Shastra is an ancient Indian science of architecture and design that 
-              harmonizes the five elements of nature — Earth, Water, Fire, Air, and Space — 
-              to create balanced living and working environments.
+             It teaches how the five elements should be balanced in a home or office, giving clear rules for directions and placement to improve energy, comfort, and positivity.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Dating back over 5,000 years, Vastu principles guide the placement, layout, 
-              and design of buildings to enhance positive energy flow, bringing prosperity, 
-              health, and happiness to the occupants.
+              Vastu is practical and logical, With the right guidance and remedies, it can remove obstacles and bring peace, health, and prosperity into your life.
+              Vastu uses a 25-direction model, which includes the 16 main directions along with 9 additional mid-zones. Together, these 25 zones show how every part of a space influences different areas of life.
             </p>
 
             {/* Elements Grid */}

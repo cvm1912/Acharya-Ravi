@@ -32,7 +32,7 @@ export const Footer = () => {
               </div>
               <div>
                 <p className="font-display text-xl font-semibold">Vastu Shastra</p>
-                <p className="text-xs text-background/70">By Acharaya Ravi</p>
+                <p className="text-xs text-background/70">By RRavi Kumar</p>
               </div>
             </div>
             <p className="text-background/80 text-sm leading-relaxed">
@@ -98,7 +98,7 @@ export const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-background/60">
-            © {new Date().getFullYear()} Vastu Shastra by Acharaya Ravi. All rights reserved.
+            © {new Date().getFullYear()} Vastu Shastra by RRavi Kumar. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <a

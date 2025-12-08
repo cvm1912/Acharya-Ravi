@@ -53,7 +53,7 @@ export const ConsultationForm = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center  bg-no-repeat opacity-0.5 md:opacity-100"
-        style={{ backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwmRB6JzE9-Al1lm8d3YInqLsn-Y3G_EHr6w&s')" }}
+        style={{ backgroundImage: "url('https://i.pinimg.com/1200x/34/14/9e/34149e2fabbc8faf8830d7e95182b220.jpg')" }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background/60" />
       <div className="container-max relative z-10">
@@ -69,7 +69,7 @@ export const ConsultationForm = () => {
             <p className="text-muted-foreground leading-relaxed">
               Take the first step towards a harmonious and prosperous life. Fill out the 
               form and our team will get in touch with you to schedule a personalized 
-              consultation with Acharaya Ravi.
+              consultation with RRavi Kumar.
             </p>
 
             <div className="space-y-4 pt-4">

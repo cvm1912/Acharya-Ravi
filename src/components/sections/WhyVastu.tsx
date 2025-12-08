@@ -40,7 +40,7 @@ export const WhyVastu = () => {
                 <p className="text-background font-display text-2xl font-semibold">
                   "A Vastu-compliant space is the foundation of a prosperous life."
                 </p>
-                <p className="text-background/80 mt-2">— Acharaya Ravi</p>
+                <p className="text-background/80 mt-2">— RRavi Kumar</p>
               </div>
             </div>
           </div>

@@ -1,10 +1,10 @@
 import { Award, BookOpen, Users, Calendar } from "lucide-react";
 
 const achievements = [
-  { icon: Calendar, value: "25+", label: "Years of Experience" },
-  { icon: Users, value: "5000+", label: "Clients Served" },
-  { icon: BookOpen, value: "100+", label: "Workshops Conducted" },
-  { icon: Award, value: "15+", label: "Awards Received" },
+  { icon: Calendar, value: "18+", label: "Years of Experience" },
+  { icon: Users, value: "4500+", label: "Clients Served" },
+  { icon: BookOpen, value: "210+", label: "Workshops Conducted" },
+  { icon: Award, value: "16+", label: "Awards Received" },
 ];
 
 export const About = () => {
@@ -16,13 +16,13 @@ export const About = () => {
           <div className="relative order-2 lg:order-1">
             <div className="aspect-[3/4] rounded-3xl overflow-hidden max-w-md mx-auto lg:mx-0">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=800&fit=crop&crop=face"
-                alt="Acharaya Ravi - Vastu Expert"
+                src="https://res.cloudinary.com/drjwxsvvb/image/upload/v1765228317/ChatGPT_Image_Dec_8_2025_04_20_17_PM_vhwrtw.png"
+                alt="RRavi Kumar - Vastu Expert"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 lg:right-auto lg:-left-6 glass-card p-6">
-              <p className="font-display text-3xl font-bold text-primary">25+</p>
+              <p className="font-display text-3xl font-bold text-primary">18+</p>
               <p className="text-sm text-muted-foreground">Years of Dedicated Service</p>
             </div>
           </div>
@@ -33,23 +33,16 @@ export const About = () => {
               Meet Your Guide
             </span>
             <h2 className="text-3xl sm:text-4xl font-display font-bold">
-              About Acharaya Ravi
+              About Vastu Ravi
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Acharaya Ravi is a renowned Vastu Shastra expert with over 25 years of 
-              experience in transforming spaces and lives. Born into a family of traditional 
-              Vastu practitioners, he inherited the ancient wisdom and combined it with 
-              modern architectural understanding.
+             RRavi Kumar has more than 18 years of experience in helping people improve their homes and lives through Vastu. He comes from a family that has been practicing Vastu for generations, and he combines traditional knowledge with modern ideas to give practical solutions.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Having studied under revered gurus and mastered the intricate aspects of 
-              Vastu, Jyotish (Astrology), and Numerology, Acharaya Ravi has helped 
-              thousands of families and businesses achieve prosperity and harmony.
+             Having studied under revered gurus and mastered the intricate aspects of Vastu, Kundi, and Numerology, RRavi Kumar has helped thousands of families and businesses achieve prosperity and harmony.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              His unique approach combines traditional Vastu principles with practical 
-              solutions that fit modern lifestyles, making ancient wisdom accessible 
-              and actionable for everyone.
+             He combines traditional Vastu knowledge with practical, modern ideas, so anyone can easily use these ancient principles in their daily life
             </p>
 
             {/* Achievements */}

@@ -6,8 +6,8 @@ export const Hero = () => {
   return (
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0 bg-[url('https://i.postimg.cc/Zq8XmGZn/TARA-11X17.jpg')]" />
+      <div className="absolute inset-0 opacity-1 md:opacity-100 ">
+        <div className="opacity-3 absolute inset-0 bg-[url('https://res.cloudinary.com/drjwxsvvb/image/upload/v1765234727/Wallpaper_iw42jk.jpg')]" />
       </div>
 
       {/* Gradient Overlay */}
@@ -23,15 +23,15 @@ export const Hero = () => {
               Ancient Wisdom for Modern Living
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold leading-tight animate-fade-up stagger-1">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold leading-tight animate-fade-up stagger-1 text-white">
               Transform Your Space with{" "}
               <span className="gradient-text">Vastu Ravi</span>
             </h1>
 
-            <p className="text-lg text-muted-foreground max-w-xl animate-fade-up stagger-2">
+            <p className="text-lg text-muted-foreground max-w-xl animate-fade-up stagger-2 text-white">
               Unlock prosperity, health, and harmony in your life through the
-              ancient science of Vastu. Expert consultation by Acharaya Ravi
-              Kumar with over 5 years of experience.
+              ancient science of Vastu. Expert consultation by RRavi Kumar
+              Kumar with over 18 years of experience.
             </p>
 
             <div className="flex flex-wrap gap-4 animate-fade-up stagger-3">
@@ -50,23 +50,23 @@ export const Hero = () => {
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border animate-fade-up stagger-4">
               <div>
                 <p className="text-3xl font-display font-bold text-primary">
-                  5+
+                  18+
                 </p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-muted-foreground text-black">
                   Years Experience
                 </p>
               </div>
               <div>
                 <p className="text-3xl font-display font-bold text-primary">
-                  100+
+                  4500+
                 </p>
-                <p className="text-sm text-muted-foreground">Happy Clients</p>
+                <p className="text-sm text-muted-foreground text-black">Happy Clients</p>
               </div>
               <div>
                 <p className="text-3xl font-display font-bold text-primary">
                   100%
                 </p>
-                <p className="text-sm text-muted-foreground">Satisfaction</p>
+                <p className="text-sm text-muted-foreground text-black">Satisfaction</p>
               </div>
             </div>
           </div>

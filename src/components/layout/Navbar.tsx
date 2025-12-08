@@ -27,7 +27,7 @@ export const Navbar = () => {
               <span className="text-primary-foreground font-display text-xl font-bold">V</span>
             </div>
             <div className="hidden sm:block">
-              <p className="font-display text-xl font-semibold text-foreground">Vastu Ravi</p>
+              <p className="font-display text-xl font-semibold text-foreground">RRavi Kumar</p>
             </div>
           </Link>
 
