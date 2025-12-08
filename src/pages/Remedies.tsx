@@ -108,8 +108,6 @@ const products = [
     description: "Brings good luck, prosperity and removes negative energy.",
     image: "https://i.postimg.cc/63cTG94H/Cluster-of-Gomti-Chakras.png",
   },
-
-
 ];
 
 
