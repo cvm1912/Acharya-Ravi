@@ -10,7 +10,7 @@ const products = [
   icon: Aperture,
   title: "Shaktichakra",
   description: "Provides protection, balances energy and brings peace to the home",
-  image: "https://pinnaclevastu.in/cdn/shop/files/ProductImages_9.png?v=1748518635",
+  image: "assets/image/shaktichakra.jpg",
 },
 {
   icon: Square,
@@ -106,7 +106,7 @@ const products = [
     icon: Aperture,
     title: "Gomti Chakra",
     description: "Brings good luck, prosperity and removes negative energy.",
-    image: "https://i.postimg.cc/63cTG94H/Cluster-of-Gomti-Chakras.png",
+    image: "assets/image/shaktichakra.jpg",
   },
 ];
 

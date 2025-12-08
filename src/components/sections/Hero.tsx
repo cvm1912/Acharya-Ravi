@@ -12,7 +12,7 @@ export const Hero = () => {
 
       {/* Gradient Overlay */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/10 to-transparent" />
-      <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-background to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-background to-transparent"></div>
 
       <div className="container-max section-padding relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
