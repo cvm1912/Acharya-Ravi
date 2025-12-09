@@ -8,7 +8,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    details: ["+91 9263218599", "+91 9263218599"],
+    details: ["+91 9263218599", ],
     action: "tel:+919263218599",
     actionLabel: "Call Now",
   },
@@ -53,7 +53,7 @@ const Contact = () => {
       />
 
       <section className="section-padding">
-        <div className="container-max">
+        <div className="container-max items-center">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {contactInfo.map((info) => {
               const Icon = info.icon;

@@ -31,7 +31,7 @@ export const WhyVastu = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="relative aspect-video md:aspect-auto rounded-3xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop"
+              src="https://i.pinimg.com/1200x/d1/2d/47/d12d47daea46cc70b354183b521c34f7.jpg"
               alt="Prosperous home with Vastu principles"
               className="w-full h-full object-cover"
             />

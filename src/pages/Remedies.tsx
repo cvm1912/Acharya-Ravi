@@ -122,7 +122,7 @@ const products = [
 },
 {
   icon: Sun,
-  title: "Sport Light",
+  title: "Spotlight",
   description: "Enhances focus, clarity and illuminates inner strength.",
   image: "https://static1.industrybuying.com/products/led-lights/led-spot-light/LED.LED.27702331_1672379380820.webp",
 },
@@ -140,7 +140,7 @@ const products = [
 },
 {
   icon: Box,
-  title: "Primiands",
+  title: "Pyramids",
   description: "Traditional sacred element used for spiritual grounding.",
   image: "/assets/image/Primiands.png",
 },

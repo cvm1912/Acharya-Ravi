@@ -49,14 +49,14 @@ export const Navbar = () => {
           </div>
 
           {/* Desktop CTA Buttons */}
-          <div className="hidden lg:flex items-center gap-3">
-            <Button variant="call" size="sm" asChild>
+          <div className="hidden lg:flex items-center gap-3 ">
+            <Button variant="call" size="sm" asChild className="bg-orange-400">
               <a href="tel:+919263218599">
                 <Phone className="w-4 h-4" />
                 Call Now
               </a>
             </Button>
-            <Button variant="whatsapp" size="sm" asChild>
+            <Button variant="whatsapp" size="sm" asChild className="bg-green-500">
               <a href="https://wa.me/919263218599" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-4 h-4" />
                 WhatsApp

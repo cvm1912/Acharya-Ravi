@@ -4,8 +4,7 @@ import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 const quickLinks = [
   { name: "Home", path: "/" },
   { name: "Consultancy", path: "/consultancy" },
-  { name: "Design", path: "/design" },
-  { name: "Horoscope", path: "/horoscope" },
+  { name: "Services", path: "/services" },
   { name: "Remedies", path: "/remedies" },
   { name: "Contact", path: "/contact" },
 ];
@@ -27,8 +26,8 @@ export const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-primary-foreground font-display text-xl font-bold">V</span>
+              <div className="w-12 h-12 rounded-full overflow-hidden">
+                <img src="https://res.cloudinary.com/drjwxsvvb/image/upload/v1765287512/logo_cvux5f.png" alt="Vastu Ravi Logo" className="w-full h-full object-cover" />
               </div>
               <div>
                 <p className="font-display text-xl font-semibold">Vastu Shastra</p>
@@ -78,13 +77,10 @@ export const Footer = () => {
                 <Phone className="w-5 h-5 text-primary mt-0.5" />
                 <div>
                   <p className="text-sm text-background/80">+91 9263218599</p>
-                  <p className="text-sm text-background/80">+91 9263218599</p>
+                  
                 </div>
               </li>
-              <li className="flex items-start gap-3">
-                <Mail className="w-5 h-5 text-primary mt-0.5" />
-                <p className="text-sm text-background/80">contact@vastubyravikumar.com</p>
-              </li>
+             
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5" />
                 <p className="text-sm text-background/80">
