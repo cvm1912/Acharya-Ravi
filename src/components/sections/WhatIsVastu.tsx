@@ -74,7 +74,7 @@ export const WhatIsVastu = () => {
           <div className="relative">
             <div className="aspect-[4/5] rounded-3xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=750&fit=crop"
+                src="https://i.pinimg.com/736x/3e/bf/8c/3ebf8ccbfdc8af59ca5a7bd66426fd4e.jpg"
                 alt="Vastu-compliant architecture"
                 className="w-full h-full object-cover"
               />

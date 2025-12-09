@@ -9,31 +9,31 @@ const services = [
     icon: User,
     title: "Personal Client Visit",
     description: "A detailed in-person vastu evaluation to analyse layout, direction alignment, energy blocks and provide effective corrections for long-term wellbeing.",
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=400&fit=crop",
+    image: "https://i.pinimg.com/736x/0f/f3/f3/0ff3f312e765766d6f751cf9e63d07e0.jpg",
   },
   {
     icon: Home,
     title: "Home/Flat Visit",
     description: "Comprehensive Vastu analysis of your residential space. We examine every corner to ensure positive energy flow and harmony.",
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&h=400&fit=crop",
+    image: "https://i.pinimg.com/1200x/70/d2/7f/70d27f2e8527b15a231236f756aec13e.jpg",
   },
   {
     icon: Building2,
     title: "Office Visit",
     description: "Optimize your workplace for success and productivity. Create an environment that fosters growth and positive professional relationships.",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
+    image: "https://i.pinimg.com/1200x/c0/cc/64/c0cc64f9978f64be1236bde48b58e0c0.jpg",
   },
    {
     icon: Factory,
     title: "Factory Visit",
     description: "Direction-wise industrial vastu analysis to improve productivity, workflow and financial growth with practical remedies.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
+    image: "https://i.pinimg.com/1200x/35/8c/97/358c97db7d752bed6f30c790d02eb30f.jpg",
    },
   {
     icon: MapPin,
     title: "Developing Site Visit",
     description: "We inspect the site during development to ensure the layout, directions and structure follow vastu principles before walls and rooms are finalized.",
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&h=400&fit=crop",
+    image: "https://i.pinimg.com/736x/97/1f/b3/971fb3f45f8fe0d1c36972b95de89e0d.jpg",
   },
 ];
 

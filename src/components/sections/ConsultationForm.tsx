@@ -73,7 +73,7 @@ export const ConsultationForm = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('https://res.cloudinary.com/drjwxsvvb/image/upload/v1765275217/bluesky_dxv1gz.jpg')" }}
+        style={{ backgroundImage: "url('https://res.cloudinary.com/drjwxsvvb/image/upload/v1765289695/compass_aftcjv.jpg')" }}
       />
       <div className="absolute inset-0 bg-black/20" />
       <div className="container-max relative z-10">
