@@ -1,7 +1,7 @@
 import { Layout } from "@/components/layout/Layout";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { ConsultationForm } from "@/components/sections/ConsultationForm";
-import { Star, GraduationCap, Wallet, Users, Heart, Briefcase, Shield, Sparkles } from "lucide-react";
+import { Star, GraduationCap, Wallet, Users, Heart, Briefcase, Shield, Sparkles,Hash} from "lucide-react";
 
 const services = [
   {
@@ -10,12 +10,13 @@ const services = [
     description: "Get a clear understanding of your life path, strengths and challenges. Includes dosha detection with simple, practical remedies.",
     color: "from-amber-500/20 to-orange-500/20",
   },
-  {
-    icon: GraduationCap,
-    title: "Educational Remedies",
-    description: "Astrological guidance for students and learners. Enhance concentration, memory, and academic success with targeted remedies.",
-    color: "from-blue-500/20 to-indigo-500/20",
-  },
+ {
+  icon: Hash,
+  title: "Numerology Remedies",
+  description: "Use the power of numbers to improve your life. Get guidance on lucky numbers, name correction, and simple daily remedies for better career, money, and relationships.",
+  color: "from-yellow-500/20 to-amber-500/20",
+}
+
   {
     icon: Wallet,
     title: "Financial Remedies",
