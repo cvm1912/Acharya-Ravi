@@ -8,7 +8,7 @@ const services = [
   {
     icon: User,
     title: "Personal Client Visit",
-    description: "One-on-one consultation at your preferred location. Get personalized Vastu guidance tailored to your specific needs and life goals.",
+    description: "A detailed in-person vastu evaluation to analyse layout, direction alignment, energy blocks and provide effective corrections for long-term wellbeing.",
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=400&fit=crop",
   },
   {
@@ -23,16 +23,16 @@ const services = [
     description: "Optimize your workplace for success and productivity. Create an environment that fosters growth and positive professional relationships.",
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
   },
-  {
+   {
     icon: Factory,
     title: "Factory Visit",
-    description: "Industrial Vastu consultation for manufacturing units. Ensure smooth operations, employee well-being, and business prosperity.",
+    description: "Direction-wise industrial vastu analysis to improve productivity, workflow and financial growth with practical remedies.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
-  },
+   },
   {
     icon: MapPin,
-    title: "Developing Project (Site)",
-    description: "Vastu guidance from the ground up. Get expert advice on plot selection, building orientation, and layout planning for new constructions.",
+    title: "Developing Site Visit",
+    description: "We inspect the site during development to ensure the layout, directions and structure follow vastu principles before walls and rooms are finalized.",
     image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&h=400&fit=crop",
   },
 ];
@@ -41,7 +41,7 @@ const Consultancy = () => {
   return (
     <Layout>
       <PageHeader
-        subtitle="Our Services"
+        subtitle=" "
         title="Vastu Consultancy"
         description="Comprehensive Vastu solutions for homes, offices, factories, and development projects. Transform your spaces with ancient wisdom."
         backgroundImage="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=600&fit=crop"

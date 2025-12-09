@@ -6,8 +6,8 @@ import { Star, GraduationCap, Wallet, Users, Heart, Briefcase, Shield, Sparkles 
 const services = [
   {
     icon: Star,
-    title: "Kundali Analysis",
-    description: "Comprehensive birth chart analysis to understand your life path, strengths, and challenges based on planetary positions.",
+    title: "Kundli (Birth Chart)",
+    description: "Get a clear understanding of your life path, strengths and challenges. Includes dosha detection with simple, practical remedies.",
     color: "from-amber-500/20 to-orange-500/20",
   },
   {

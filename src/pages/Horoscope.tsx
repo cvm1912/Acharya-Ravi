@@ -6,8 +6,8 @@ import { Star, GraduationCap, Wallet, Users, Heart, Briefcase, Shield, Sparkles 
 const services = [
   {
     icon: Star,
-    title: "Kundali Analysis",
-    description: "Comprehensive birth chart analysis to understand your life path, strengths, and challenges based on planetary positions.",
+    title: "Kundli (Birth Chart)",
+    description: "Get a clear understanding of your life path, strengths and challenges. Includes dosha detection with simple, practical remedies.",
     color: "from-amber-500/20 to-orange-500/20",
   },
   {
@@ -86,8 +86,8 @@ const Horoscope = () => {
                 <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
                   <service.icon className="w-7 h-7 text-primary" />
                 </div>
-                <h3 className="font-display text-lg font-semibold mb-2">{service.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
+                <h3 className="font-display text-lg font-semibold mb-2 ">{service.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed text-justify">
                   {service.description}
                 </p>
               </div>
