@@ -22,11 +22,11 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="text-primary-foreground font-display text-xl font-bold">V</span>
+            <div className="w-12 h-12 rounded-full overflow-hidden">
+              <img src="https://res.cloudinary.com/drjwxsvvb/image/upload/v1765287512/logo_cvux5f.png" alt="Vastu Ravi Logo" className="w-full h-full object-cover" />
             </div>
             <div className="hidden sm:block">
-              <p className="font-display text-xl font-semibold text-foreground">Vastu Ravi</p>
+              <p className="font-display text-xl font-semibold text-foreground text-[#f04641]">Vastu Ravi</p>
             </div>
           </Link>
 

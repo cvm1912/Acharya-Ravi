@@ -1,7 +1,7 @@
 import { Award, BookOpen, Users, Calendar } from "lucide-react";
 
 const achievements = [
-  { icon: Calendar, value: "18+", label: "Years of Experience" },
+  { icon: Calendar, value: "12+", label: "Years of Experience" },
   { icon: Users, value: "4500+", label: "Clients Served" },
   { icon: BookOpen, value: "210+", label: "Workshops Conducted" },
   { icon: Award, value: "16+", label: "Awards Received" },
@@ -22,7 +22,7 @@ export const About = () => {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 lg:right-auto lg:-left-6 glass-card p-6">
-              <p className="font-display text-3xl font-bold text-primary">18+</p>
+              <p className="font-display text-3xl font-bold text-primary">12+</p>
               <p className="text-sm text-muted-foreground">Years of Dedicated Service</p>
             </div>
           </div>
@@ -36,7 +36,7 @@ export const About = () => {
               About Vastu Ravi
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-             RRavi Kumar has more than 18 years of experience in helping people improve their homes and lives through Vastu. He comes from a family that has been practicing Vastu for generations, and he combines traditional knowledge with modern ideas to give practical solutions.
+             RRavi Kumar has more than 12+ of experience in helping people improve their homes and lives through Vastu. He comes from a family that has been practicing Vastu for generations, and he combines traditional knowledge with modern ideas to give practical solutions.
             </p>
             <p className="text-muted-foreground leading-relaxed">
              Having studied under revered gurus and mastered the intricate aspects of Vastu, Kundi, and Numerology, RRavi Kumar has helped thousands of families and businesses achieve prosperity and harmony.

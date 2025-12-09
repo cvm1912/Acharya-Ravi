@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 
 const reasons = [
   "Attracts positive cosmic energy into your living space",
-  "Improves mental peace and reduces stress",
+  "Improves Mind peace and reduces stress",
   "Enhances financial growth and career opportunities",
   "Promotes better health and well-being",
   "Strengthens family relationships and harmony",

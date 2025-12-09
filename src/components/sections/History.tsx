@@ -1,26 +1,26 @@
 const timeline = [
   {
-    year: "1998",
+    year: "2012",
     title: "Journey Begins",
     description: "Started learning Vastu Shastra under the guidance of traditional gurus.",
   },
   {
-    year: "2003",
+    year: "2015",
     title: "First Consultation",
     description: "Conducted first professional Vastu consultation for a residential project.",
   },
   {
-    year: "2010",
+    year: "2018",
     title: "Expanded Services",
     description: "Extended expertise to commercial spaces, factories, and large-scale projects.",
   },
   {
-    year: "2015",
+    year: "2021",
     title: "Recognition",
     description: "Received national recognition for contributions to Vastu science.",
   },
   {
-    year: "2020",
+    year: "2023",
     title: "Digital Presence",
     description: "Launched online consultations to serve clients worldwide.",
   },

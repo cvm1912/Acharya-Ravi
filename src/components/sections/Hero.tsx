@@ -30,7 +30,7 @@ export const Hero = () => {
 
             <p className="text-lg text-muted-foreground max-w-xl animate-fade-up stagger-2 text-white">
               Unlock prosperity, health, and harmony in your life through the
-              ancient science of Vastu. Expert consultation by RRavi Kumar with over 18 years of experience.
+              ancient science of Vastu. Expert consultation by RRavi Kumar with over 12+ of experience.
             </p>
 
             <div className="flex flex-wrap gap-4 animate-fade-up stagger-3">
@@ -49,7 +49,7 @@ export const Hero = () => {
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border animate-fade-up stagger-4">
               <div>
                 <p className="text-3xl font-display font-bold text-primary">
-                  18+
+                  12+
                 </p>
                 <p className="text-sm text-muted-foreground text-black">
                   Years Experience

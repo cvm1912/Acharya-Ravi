@@ -59,7 +59,7 @@ const Horoscope = () => {
     <Layout>
       <PageHeader
         subtitle="Jyotish Services"
-        title="Horoscope & Kundali"
+        title="Vastu & Kundali"
         description="Ancient Vedic astrology combined with Vastu for comprehensive life guidance and remedies."
         backgroundImage="https://images.unsplash.com/photo-1532968961962-8a0cb3a2d4f5?w=1920&h=600&fit=crop"
       />
@@ -68,7 +68,7 @@ const Horoscope = () => {
         <div className="container-max">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl sm:text-4xl font-display font-bold mb-6">
-              Our Horoscope Services
+              Our vastu Services
             </h2>
             <p className="text-muted-foreground">
               Combining the wisdom of Vedic astrology with Vastu Shastra for holistic 

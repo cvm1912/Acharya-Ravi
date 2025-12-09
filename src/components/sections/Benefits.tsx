@@ -18,7 +18,7 @@ const benefits = [
   },
   {
     icon: Brain,
-    title: "Mental Clarity",
+    title: "Mind Clarity",
     description: "Reduce stress and anxiety with balanced energy flow in your surroundings.",
   },
   {
