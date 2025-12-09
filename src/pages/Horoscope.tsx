@@ -15,7 +15,7 @@ const services = [
   title: "Numerology Remedies",
   description: "Use the power of numbers to improve your life. Get guidance on lucky numbers, name correction, and simple daily remedies for better career, money, and relationships.",
   color: "from-yellow-500/20 to-amber-500/20",
-}
+},
 
   {
     icon: Wallet,
