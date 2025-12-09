@@ -25,13 +25,12 @@ export const Hero = () => {
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold leading-tight animate-fade-up stagger-1 text-white">
               Transform Your Space with{" "}
-              <span className="gradient-text">Vastu Ravi</span>
+              <span className="gradient-text">VastuRavi</span>
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-xl animate-fade-up stagger-2 text-white">
               Unlock prosperity, health, and harmony in your life through the
-              ancient science of Vastu. Expert consultation by RRavi Kumar
-              Kumar with over 18 years of experience.
+              ancient science of Vastu. Expert consultation by RRavi Kumar with over 18 years of experience.
             </p>
 
             <div className="flex flex-wrap gap-4 animate-fade-up stagger-3">

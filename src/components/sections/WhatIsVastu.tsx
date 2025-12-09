@@ -49,9 +49,9 @@ export const WhatIsVastu = () => {
               Vastu Shastra is an ancient Indian science of architecture and design that 
              It teaches how the five elements should be balanced in a home or office, giving clear rules for directions and placement to improve energy, comfort, and positivity.
             </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Vastu is practical and logical, With the right guidance and remedies, it can remove obstacles and bring peace, health, and prosperity into your life.
-              Vastu uses a 25-direction model, which includes the 16 main directions along with 9 additional mid-zones. Together, these 25 zones show how every part of a space influences different areas of life.
+            <p className="text-muted-foreground leading-relaxed text-justify">
+              Vastu is practical and logical and with the right guidance and remedies, it can remove obstacles and bring peace, health, and prosperity into your life.
+              In Vastu Shastra, our home and workplace are divided into 16 directions, and each direction represents an important part of our life and these directions are connected with the five natural elements — Water, Air, Fire, Earth and Space. Most people know only about the common 8 directions, but every direction has its own special energy.
             </p>
 
             {/* Elements Grid */}
