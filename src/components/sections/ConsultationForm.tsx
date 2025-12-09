@@ -49,24 +49,24 @@ export const ConsultationForm = () => {
   };
 
   return (
-    <section className="section-padding bg-muted/50 relative">
+    <section className="section-padding relative">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center  bg-no-repeat opacity-0.5 md:opacity-100"
-        style={{ backgroundImage: "url('https://i.pinimg.com/1200x/34/14/9e/34149e2fabbc8faf8830d7e95182b220.jpg')" }}
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('https://res.cloudinary.com/drjwxsvvb/image/upload/v1765275217/bluesky_dxv1gz.jpg')" }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background/60" />
+      <div className="absolute inset-0 bg-black/20" />
       <div className="container-max relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Content */}
           <div className="space-y-6">
-            <span className="text-primary font-medium text-sm uppercase tracking-wider">
+            <span className="text-primary font-medium text-sm uppercase tracking-wider  text-orange-400">
               Get Started
             </span>
-            <h2 className="text-3xl sm:text-4xl font-display font-bold">
+            <h2 className="text-3xl sm:text-4xl font-display font-bold text-white">
               Book Your Consultation
             </h2>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed text-white">
               Take the first step towards a harmonious and prosperous life. Fill out the 
               form and our team will get in touch with you to schedule a personalized 
               consultation with RRavi Kumar.
@@ -75,20 +75,20 @@ export const ConsultationForm = () => {
             <div className="space-y-4 pt-4">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
-                  <Calendar className="w-6 h-6 text-primary" />
+                  <Calendar className="w-6 h-6 text-primary text-orange-400" />
                 </div>
                 <div>
-                  <p className="font-semibold">Quick Response</p>
-                  <p className="text-sm text-muted-foreground">We respond within 24 hours</p>
+                  <p className="font-semibold text-orange-400">Quick Response</p>
+                  <p className="text-sm text-muted-foreground text-white">We respond within 24 hours</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
-                  <User className="w-6 h-6 text-primary" />
+                  <User className="w-6 h-6 text-primary text-orange-400" />
                 </div>
                 <div>
-                  <p className="font-semibold">Personal Attention</p>
-                  <p className="text-sm text-muted-foreground">One-on-one consultation with expert</p>
+                  <p className="font-semibold text-orange-400">Personal Attention</p>
+                  <p className="text-sm text-muted-foreground text-white">One-on-one consultation with expert</p>
                 </div>
               </div>
             </div>
