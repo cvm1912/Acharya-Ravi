@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { Send, Calendar, User, Mail, Phone, MessageSquare } from "lucide-react";
+import { supabase } from "@/lib/supabase";
 
 const consultationTypes = [
   "Personal Consultation",
@@ -30,22 +31,41 @@ export const ConsultationForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      const { error } = await supabase
+        .from('consultations')
+        .insert([{
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          type: formData.consultationType,
+          message: formData.message,
+        }]);
 
-    toast({
-      title: "Consultation Request Received!",
-      description: "We will contact you within 24 hours to schedule your consultation.",
-    });
+      if (error) throw error;
 
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      consultationType: "",
-      message: "",
-    });
-    setIsSubmitting(false);
+      toast({
+        title: "Consultation Request Received!",
+        description: "We will contact you within 24 hours to schedule your consultation.",
+      });
+
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        consultationType: "",
+        message: "",
+      });
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to submit consultation request. Please try again.",
+        variant: "destructive",
+      });
+      console.error('Error submitting form:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
